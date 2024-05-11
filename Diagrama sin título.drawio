@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T23:07:12.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="o6vd1NPN8coYscNibdf_" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T16:09:11.165Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0" etag="4WNEd5NGlvHHh9GX3nvI" version="24.3.1" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="2167" dy="1291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2884" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,11 +16,11 @@
         <mxCell id="3eu0gLsUePaidYde5kII-4" value="&lt;b style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 24px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;SQL DB for Bussines Logic&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;strokeWidth=7;fontSize=24;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="730.0000000000001" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3eu0gLsUePaidYde5kII-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3eu0gLsUePaidYde5kII-6" target="3eu0gLsUePaidYde5kII-17" edge="1">
+        <mxCell id="3eu0gLsUePaidYde5kII-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3eu0gLsUePaidYde5kII-6" target="kIv36qMvWvy2csFwaT8d-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="470" />
-              <mxPoint x="629" y="470" />
+              <mxPoint x="450" y="490" />
+              <mxPoint x="590" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -31,7 +31,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="180" y="490" />
-              <mxPoint x="477" y="490" />
+              <mxPoint x="437" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -51,7 +51,7 @@
           <mxGeometry x="-40" y="560.0000000000001" width="150" height="170" as="geometry" />
         </mxCell>
         <mxCell id="3eu0gLsUePaidYde5kII-17" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;PRODUCTO\n\n-id: int\n-nombre: String (255)\n-descripcion: TEXT\n-precio: double&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;center&amp;quot;},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle1_textStyle&amp;quot;,&amp;quot;e&amp;quot;:40},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle1_textStyle&amp;quot;,&amp;quot;e&amp;quot;:40},{&amp;quot;s&amp;quot;:9,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:10,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:19,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;#282c33ff&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle4_textStyle&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle4_textStyle&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:41,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;#000000ff&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle5_textStyle&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle5_textStyle&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:60,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;b&gt;SUBSCRIPTION&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;id: int&lt;/div&gt;&lt;div&gt;name: String (255)&lt;/div&gt;&lt;div&gt;description: TEXT&lt;/div&gt;&lt;div&gt;price: double&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="520" y="560.14" width="140" height="169.93" as="geometry" />
+          <mxGeometry x="670" y="560.14" width="140" height="169.93" as="geometry" />
         </mxCell>
         <mxCell id="3eu0gLsUePaidYde5kII-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3eu0gLsUePaidYde5kII-26" target="3eu0gLsUePaidYde5kII-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -136,17 +136,17 @@
         <mxCell id="JClIsUNEsZ8_a61VlDSI-19" value="This DB is used for manage users on the platform, so it need a user form to catch user data on platform" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="278.75" y="559.9300000000001" width="90" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="kIv36qMvWvy2csFwaT8d-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="3eu0gLsUePaidYde5kII-6" target="JClIsUNEsZ8_a61VlDSI-20">
+        <mxCell id="kIv36qMvWvy2csFwaT8d-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" source="3eu0gLsUePaidYde5kII-6" target="JClIsUNEsZ8_a61VlDSI-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="450" y="470" />
-              <mxPoint x="490" y="470" />
+              <mxPoint x="450" y="520" />
+              <mxPoint x="450" y="520" />
             </Array>
             <mxPoint x="450" y="340" as="sourcePoint" />
             <mxPoint x="559" y="625" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kIv36qMvWvy2csFwaT8d-2" value="&lt;b&gt;Only Read DB&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="kIv36qMvWvy2csFwaT8d-1">
+        <mxCell id="kIv36qMvWvy2csFwaT8d-2" value="&lt;b&gt;Only Read DB&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="kIv36qMvWvy2csFwaT8d-1" vertex="1" connectable="0">
           <mxGeometry x="-0.0152" y="2" relative="1" as="geometry">
             <mxPoint y="-18" as="offset" />
           </mxGeometry>
@@ -154,8 +154,18 @@
         <mxCell id="JClIsUNEsZ8_a61VlDSI-20" value="&lt;b&gt;PRODUCTS&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;id: int&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;name: String(255)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;description: TEXT&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;category: String (255)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="560.07" width="120" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="kIv36qMvWvy2csFwaT8d-3" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;PRODUCTO\n\n-id: int\n-nombre: String (255)\n-descripcion: TEXT\n-precio: double&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;center&amp;quot;},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle1_textStyle&amp;quot;,&amp;quot;e&amp;quot;:40},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle1_textStyle&amp;quot;,&amp;quot;e&amp;quot;:40},{&amp;quot;s&amp;quot;:9,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:10,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:19,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;#282c33ff&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle4_textStyle&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle4_textStyle&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:41,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;#000000ff&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle5_textStyle&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle5_textStyle&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:60,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;b&gt;SUBSCRIPTION_PRODUCTS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;id: int&lt;/div&gt;&lt;div&gt;name: String (255)&lt;/div&gt;&lt;div&gt;description: TEXT&lt;/div&gt;&lt;div&gt;price: double&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="670" y="560.0699999999999" width="140" height="169.93" as="geometry" />
+        <mxCell id="kIv36qMvWvy2csFwaT8d-3" value="&lt;span data-lucid-content=&quot;{&amp;quot;t&amp;quot;:&amp;quot;PRODUCTO\n\n-id: int\n-nombre: String (255)\n-descripcion: TEXT\n-precio: double&amp;quot;,&amp;quot;m&amp;quot;:[{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;center&amp;quot;},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle1_textStyle&amp;quot;,&amp;quot;e&amp;quot;:40},{&amp;quot;s&amp;quot;:0,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle1_textStyle&amp;quot;,&amp;quot;e&amp;quot;:40},{&amp;quot;s&amp;quot;:9,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:10,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:19,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;#282c33ff&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle4_textStyle&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:40,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle4_textStyle&amp;quot;,&amp;quot;e&amp;quot;:42},{&amp;quot;s&amp;quot;:41,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;c&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;#000000ff&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;fsp&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle5_textStyle&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:42,&amp;quot;n&amp;quot;:&amp;quot;fsp2&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;ss_presetShapeStyle5_textStyle&amp;quot;,&amp;quot;e&amp;quot;:75},{&amp;quot;s&amp;quot;:60,&amp;quot;n&amp;quot;:&amp;quot;a&amp;quot;,&amp;quot;v&amp;quot;:&amp;quot;left&amp;quot;}]}&quot; data-lucid-type=&quot;application/vnd.lucid.text&quot;&gt;&lt;b&gt;SUBSCRIPTION_PRODUCTS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;id: int&lt;/div&gt;&lt;div&gt;name: String (255)&lt;/div&gt;&lt;div&gt;description: TEXT&lt;/div&gt;&lt;div&gt;price: double&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="520" y="560.14" width="140" height="169.93" as="geometry" />
+        </mxCell>
+        <mxCell id="2w4d96TiAbUTxQoSpIZL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="3eu0gLsUePaidYde5kII-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="490" />
+              <mxPoint x="740" y="490" />
+            </Array>
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="740" y="550.14" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
